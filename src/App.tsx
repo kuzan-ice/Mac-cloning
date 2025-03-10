@@ -31,16 +31,6 @@ function App() {
   }, [setDbLoaded]);
 
   useEffect(() => {
-    // storeInStore({
-    //   key: "key1",
-    //   value: ["value1"],
-    // }).then((response) => debug(response.text));
-    // getFromStore().then((response) => debug(JSON.stringify(response)));
-
-    // checkForValueInStore("key1").then(() => debug("Value found in store"));
-    // checkForValueInStore("key2").then((response) =>
-    //   response ? debug(`Found in store. Response: ${response.toString()}`) : debug("Value not found in store", true),
-    // );
 
     (async () => {
       if (!storeInitialized.current) {
