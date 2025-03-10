@@ -15,6 +15,8 @@
 - [x] Add [React Scan](https://github.com/aidenybai/react-scan) to website to improve debugging.
 - [ ] Add logic and styling to the Safari search bar.
 - [ ] Fix bottom apps navbar popup styling.
+
+- [ ] 
 - [ ] Fix top navbar background colours.
 - [x] Add a widget grid system.
 - [x] Make an option for adding widgets.
